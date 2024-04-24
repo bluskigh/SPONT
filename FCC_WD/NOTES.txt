@@ -1,0 +1,30 @@
+ELEMENTS can have TWO formats:
+
+- normal ⇒ <ELEMENT> CONTENT </ELEMENT>
+    - **HAS** an *OPENING* ****and *CLOSING* tag
+    - content can be textual content or elemental content
+        - textual content is displayed
+    - EXAMPLES:
+        
+        ```html
+        <p>this is a paragraph</p> <!-- displays textual CONTENT using default styles -->
+        <h1>HEADER ONE</h1> <!-- displays textual CONTENT -->
+        <ul> <!-- displays elemental CONTENTs textual CONTENT -->
+        	<li>item one</li>
+        </ul>
+        ```
+        
+- void ⇒ <ELEMENT />
+    - **NO** *CLOSING* tag
+    - self-contained elements
+        - self-contained ⇒ has all that it needs in itself, complete
+            - aka void elements don’t need the additional content between the start and closing tags because they have everything they need by itself in the attributes or predefined function
+            - can display content via attributes or predefined functions
+    - EXAMPLES:
+        
+        ```html
+        <br/> <!-- creates a new line in HTMl structure via predefined function -->
+        <img src="cat.jpeg" alt="CAT SMILING"/> <!-- displays cat image via attributes -->
+        <link rel="stylesheet" href="index.css"/> <!-- connects stylesheet -->
+        <hr/> <!-- display horizontal line via predefined function -->
+        ```
