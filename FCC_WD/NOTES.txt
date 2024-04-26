@@ -1,9 +1,10 @@
-ELEMENTS can have TWO formats:
+## ELEMENTS
+
+Elements can have TWO formats:
 
 - normal ⇒ <ELEMENT> CONTENT </ELEMENT>
     - **HAS** an *OPENING* ****and *CLOSING* tag
     - content can be textual content or elemental content
-        - textual content is displayed
     - EXAMPLES:
         
         ```html
@@ -19,7 +20,7 @@ ELEMENTS can have TWO formats:
     - self-contained elements
         - self-contained ⇒ has all that it needs in itself, complete
             - aka void elements don’t need the additional content between the start and closing tags because they have everything they need by itself in the attributes or predefined function
-            - can display content via attributes or predefined functions
+            - BUT they CAN still display content via attributes or predefined functions
     - EXAMPLES:
         
         ```html
@@ -28,3 +29,62 @@ ELEMENTS can have TWO formats:
         <link rel="stylesheet" href="index.css"/> <!-- connects stylesheet -->
         <hr/> <!-- display horizontal line via predefined function -->
         ```
+        
+
+## HEADINGS
+
+Heading elements are sectioning elements each signify the importance of the content they are sectioning/
+
+- signify ⇒ be an indication of
+    - indication ⇒ a sign or piece of information that indicates something
+        - indicate ⇒ point out; show
+            - heading elements are sectioning elements that show the importance of their content
+- are normal elements
+- block-level elements ⇒ start on new line
+- NO element-specific attributes ⇒ ONLY global attributes
+- are ordered from 1 to 6
+    - the lower the number the higher the importance
+    - elements with higher importance make broad sections
+    - elements with lower importance make specific (or “detailed”) sections
+
+```html
+<!-- BROAD section -->
+<h1>About Me</h1>
+...
+<!-- subsections -->
+<h2>Projects</h2>
+<!-- mildly detailed structure -->
+	<h3>Programming</h3>
+		<h6>Languages</h6> <!-- VERY detailed structure -->
+			<p>Java</p>
+			<p>C#</p>
+	<h3>Photography</h3>
+	<h3>Robotics</h3>
+```
+
+- element name ⇒ h + order number
+
+```html
+
+<h1>HEADER ONE</h1>
+	<h2>HEADER TWO</h2>
+		<h3>HEADER THREE</h3>
+			<h4>HEADER FOUR</h4>
+				<h5>HEADER FIVE</h5>
+					<h6>HEADER SIX</h6>
+<!-- since normal element it has opening and closing tag -->
+```
+
+- there can ONLY be ONE <h1> element on a page
+- place lower importance headings below higher importance headings
+
+```html
+<!-- ❌ improper headings placement -->
+<h2>hello world</h2>
+<h1>Robot</h1>
+
+<!-- ✅ proper headings placement -->
+<h1>Robot</h1>
+	<h2>hello world</h2>
+		<h3>scrolling</h3>
+```
