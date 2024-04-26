@@ -18,9 +18,10 @@ Elements can have TWO formats:
 - void ⇒ <ELEMENT />
     - **NO** *CLOSING* tag
     - self-contained elements
-        - self-contained ⇒ has all that it needs in itself, complete
-            - aka void elements don’t need the additional content between the start and closing tags because they have everything they need by itself in the attributes or predefined function
-            - BUT they CAN still display content via attributes or predefined functions
+        - def self-contained
+            - self-contained ⇒ has all that it needs in itself, complete
+        - aka void elements don’t need the additional content between the start and closing tags because they have everything they need by itself in the attributes or predefined function
+        - BUT they CAN still display content via attributes or predefined functions
     - EXAMPLES:
         
         ```html
@@ -33,12 +34,15 @@ Elements can have TWO formats:
 
 ## HEADINGS
 
-Heading elements are sectioning elements each signify the importance of the content they are sectioning/
+### Definition
 
-- signify ⇒ be an indication of
-    - indication ⇒ a sign or piece of information that indicates something
-        - indicate ⇒ point out; show
-            - heading elements are sectioning elements that show the importance of their content
+Heading elements are sectioning elements each signify the importance of the content they are sectioning
+
+- def signify
+    - signify ⇒ be an indication of
+        - indication ⇒ a sign or piece of information that indicates something
+            - indicate ⇒ point out; show
+                - heading elements are sectioning elements that show the importance of their content
 - are normal elements
 - block-level elements ⇒ start on new line
 - NO element-specific attributes ⇒ ONLY global attributes
@@ -75,7 +79,6 @@ Heading elements are sectioning elements each signify the importance of the cont
 <!-- since normal element it has opening and closing tag -->
 ```
 
-- there can ONLY be ONE <h1> element on a page
 - place lower importance headings below higher importance headings
 
 ```html
@@ -88,3 +91,19 @@ Heading elements are sectioning elements each signify the importance of the cont
 	<h2>hello world</h2>
 		<h3>scrolling</h3>
 ```
+
+### DO NOT 🚫🙅‍♂️
+
+- DO NOT place MORE than ONE <h1> element on a page
+- DO NOT use heading elements to RESIZE text
+    - use css for that
+- DO NOT SKIP heading LEVELS
+    - **WHY**❓
+        - Users with screen readers usually navigate pages by quickly jumping from heading to heading and when there is a heading missing they may be left confused and dissatisfied with the website.
+- DO NOT USE headings for NON-HEADING content
+
+**RELATED**  💡
+
+You can use aria-labelledby to create sectioning content for assistive technologies
+
+[<h1>–<h6>: The HTML Section Heading elements - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#labeling_section_content)
