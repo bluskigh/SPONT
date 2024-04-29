@@ -1,0 +1,41 @@
+> A computer is composed of constituent parts that work together to create a functional computer.
+> 
+
+These parts can be **divided** into **two** **categories**:
+
+- ⚙️ hardware
+- 👾 software
+
+**Hardware** → physical components of a computer
+
+- by itself it can’t do much it needs instructions to tell it what to do (software)
+- examples: RAM, CPU, Motherboard, Graphics Card, Audio Card/gallery
+
+**Software** → instructions or data stored electronically
+
+- examples: Application Software and System Software
+
+Hardware without software is like a car without a driver. The car has potential to drive but it needs a driver in order to see the potential. Hardware has a lot of potential but it needs software to instruct it to use that potential. 
+
+- hardware = potential
+- software = instruction
+
+## Types of hardware
+
+### Input Devices
+
+> An input device is any piece of hardware that takes information from outside the computer and transfers it inside where the hardware can use it.
+> 
+- examples: Keyboard, Mouse, Scanner, Microphone, Webcam, Touchscreen
+
+**Keyboard**
+
+!https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb
+
+- is an input device that takes user input as key presses that generate an electrical signal which is interpreted by an internal chip within the keyboard called the scanning chip which identifies what key was pressed and sends the corresponding code representing the key pressed to the computer
+
+### Mouse
+
+!https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb
+
+-
